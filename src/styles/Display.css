@@ -1,0 +1,61 @@
+.display {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 130px;
+	display: flex;
+}
+.display__image {
+	flex: 0.33;
+}
+
+.display__image__bigImage {
+	width: 100%;
+	height: auto;
+}
+
+.display__image__text {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+	margin-left: 10px;
+	flex: 0.5;
+}
+
+.display__image__text > .display__image__text__left {
+	display: flex;
+}
+.display__image__text
+	> .display__image__text__left
+	> .display__image__text__left__text
+	> h1 {
+	font-size: 1rem;
+	font-family: "PT Sans Caption", sans-serif;
+}
+
+.display__image__text
+	> .display__image__text__left
+	> .display__image__text__left__text
+	> p {
+	font-size: 0.8rem;
+	color: #777;
+	font-family: "PT Sans Caption", sans-serif;
+}
+
+.display__image__text > .display__image__text__right > h1 {
+	font-size: 1rem;
+	font-family: "PT Sans Caption", sans-serif;
+}
+
+.display__image__text > .display__image__text__right > p {
+	font-size: 0.8rem;
+	color: #777;
+	font-family: "PT Sans Caption", sans-serif;
+}
+
+.display__middle {
+	flex: 0.33;
+}
+
+.display__right {
+	flex: 0.33;
+}

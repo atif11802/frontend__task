@@ -1,0 +1,54 @@
+.amaze {
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 100px;
+}
+
+.amaze__left {
+	flex: 0.33;
+}
+.amaze__left > h1 {
+	font-size: 1.4em;
+	font-family: "PT Sans Caption", sans-serif;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.amaze__mid {
+	flex: 0.33;
+	display: flex;
+}
+
+.amaze__mid__text {
+	margin-top: -5px;
+	margin-left: 10px;
+	font-family: "PT Sans Caption", sans-serif;
+}
+.amaze__mid__text > h1 {
+	font-size: 1.3em;
+}
+
+.amaze__mid__text > p {
+	font-size: 0.7rem;
+	font-weight: 300;
+	color: #777;
+}
+.amaze__right {
+	flex: 0.33;
+	display: flex;
+}
+
+.amaze__right__text {
+	margin-top: -5px;
+	margin-left: 10px;
+	font-family: "PT Sans Caption", sans-serif;
+}
+.amaze__right__text > h1 {
+	font-size: 1.3em;
+}
+
+.amaze__right__text > p {
+	font-size: 0.7rem;
+	font-weight: 300;
+	color: #777;
+}

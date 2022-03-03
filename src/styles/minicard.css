@@ -1,0 +1,54 @@
+.minicard {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.minicard__img > img {
+	width: 80%;
+}
+
+.minicard__text > h1 {
+	font-family: "PT Sans Caption", sans-serif;
+	font-size: 0.8em;
+}
+
+.minicard__text__items {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.minicard__text__items__statics {
+	border: 1px solid #98ff98;
+	padding: 5px;
+	border-radius: 10px;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.minicard__text__items__statics > p {
+	font-size: 0.6rem;
+}
+
+.minicard__text__items__statics__para {
+	font-size: 0.7rem;
+	color: #777;
+	margin-left: 5px;
+}
+
+.minicard__button {
+	width: 100px;
+	text-align: center;
+	border: 1px solid #3d00b7;
+	margin-top: 5px;
+	border-radius: 50px;
+	background-color: #3d00b7;
+	color: #fff;
+	font-size: 0.9rem;
+	font-family: "PT Sans Caption", sans-serif;
+	cursor: pointer;
+	padding: 5px;
+}
