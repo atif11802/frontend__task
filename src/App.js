@@ -4,6 +4,8 @@ import CollectionNfts from "./components/CollectionNfts";
 import Display from "./components/Display";
 import Menu from "./components/Menu";
 import SellNfts from "./components/SellNfts";
+import DiscoverNfts from "./components/DiscoverNfts";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -14,6 +16,9 @@ function App() {
 			<Display />
 			<CollectionNfts />
 			<SellNfts />
+			<DiscoverNfts />
+			<Footer />
+			<div className='footer__copyright'>Copyright &copy; 2022 Atif</div>
 		</div>
 	);
 }

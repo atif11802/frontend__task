@@ -18,3 +18,14 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+.footer__copyright {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+}

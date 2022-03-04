@@ -1,0 +1,94 @@
+.DiscoverCard {
+	margin-top: 20px;
+	max-width: 200px;
+}
+
+.DiscoverCard__image > img {
+	width: 100%;
+}
+
+.discoverCard__images {
+	display: flex;
+	position: relative;
+	left: 10px;
+	top: 0;
+}
+
+.discoverCard__image {
+	position: relative;
+	top: -25px;
+	left: 0px;
+}
+
+.discoverCard__image > img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.discoverCard__image1 {
+	position: relative;
+	top: -25px;
+	left: -10px;
+}
+
+.discoverCard__image1 > img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.discoverCard__image2 {
+	position: relative;
+	top: -25px;
+	left: -25px;
+}
+.discoverCard__image2 > img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.discoverCard__image3 {
+	position: relative;
+	top: -25px;
+	left: -35px;
+}
+
+.discoverCard__image3 > img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.DiscoverCard__info__firstline {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.DiscoverCard__info__firstline__left {
+	display: flex;
+	color: green;
+}
+
+.DiscoverCard__info__firstline__left > p {
+	margin-left: 10px;
+	color: #777;
+}
+
+.DiscoverCard__info__secondline {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.DiscoverCard__info__secondline__left {
+	padding: 5px;
+	color: #777;
+}
+.DiscoverCard__info__secondline__right {
+	padding: 5px;
+	color: #777;
+}
