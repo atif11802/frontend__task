@@ -3,9 +3,11 @@
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: 100px;
-	height: 500px;
+
 	background-color: #d9e0ec;
 	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .CollectionNfts > h1 {
