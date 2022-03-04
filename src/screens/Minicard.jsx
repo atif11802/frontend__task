@@ -1,14 +1,13 @@
 import React from "react";
 import "../styles/minicard.css";
-import image1 from "../images/image1.png";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { RiArrowUpDownLine } from "react-icons/ri";
 
-const Minicard = () => {
+const Minicard = ({ item }) => {
 	return (
 		<div className='minicard'>
 			<div className='minicard__img'>
-				<img src={image1} alt='image1' className='minicard__img__image' />
+				<img src={item.image} alt='image1' className='minicard__img__image' />
 			</div>
 			<div className='minicard__text'>
 				<h1>the Futr Abstr</h1>

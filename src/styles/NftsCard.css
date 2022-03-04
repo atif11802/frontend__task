@@ -1,0 +1,51 @@
+.nftscard {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.nftscard__container {
+	display: flex;
+}
+
+.nftscard__largeImg > img {
+	width: 90%;
+	height: auto;
+}
+
+.nftscard__smallImg {
+	display: flex;
+	flex-direction: column;
+}
+
+.nftscard__smallImg > img {
+	width: 69%;
+	height: auto;
+	margin-bottom: 27px;
+}
+
+.nfts__content__items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nfts__content__items__left {
+	display: flex;
+	align-items: center;
+}
+
+.nfts__content__items__left > p {
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.nfts__content__items__right {
+	border: 1px solid #2639ed;
+	padding: 5px 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.nfts__content__items__right > p {
+	font-size: 12px;
+	color: #2639ed;
+}

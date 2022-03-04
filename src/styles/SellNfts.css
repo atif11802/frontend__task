@@ -1,0 +1,90 @@
+.sellnfts {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 40px;
+	display: flex;
+}
+.sellnfts__images {
+	flex: 0.6;
+}
+.sellnfts__images__img1 {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.sellnfts__images__img1 > img {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.sellnfts__images__img1 > .sellnfts__images__img1__avatar {
+	position: absolute;
+	top: 279px;
+	left: 279px;
+}
+
+.sellnfts__images__img2 {
+	position: relative;
+	left: 349px;
+	top: -98px;
+}
+
+.sellnfts__images__img2 > img {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.sellnfts__images__img2 > .sellnfts__images__img2__avatar {
+	position: absolute;
+	top: 246px;
+	left: 224px;
+}
+
+.sellnfts__images__img3 {
+	position: relative;
+	left: 109px;
+	top: -242px;
+}
+
+.sellnfts__images__img3 > img {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.sellnfts__images__img3 > .sellnfts__images__img3__avatar {
+	position: absolute;
+	top: 192px;
+	left: 177px;
+}
+
+.sellnfts__texts {
+	flex: 0.4;
+	margin-top: 100px;
+}
+
+.sellnfts__texts > h1 {
+	font-size: 4rem;
+	line-height: 55px;
+	font-family: "PT Sans Caption", sans-serif;
+}
+
+.sellnfts__texts > p {
+	margin-top: 20px;
+	font-size: 1rem;
+	color: #777;
+}
+
+.sellnfts__texts__button {
+	cursor: pointer;
+	margin-top: 20px;
+	width: 140px;
+	background-color: #3d00b7;
+	text-align: center;
+	padding: 10px;
+	border-radius: 40px;
+	color: #fff;
+}

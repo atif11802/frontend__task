@@ -3,6 +3,9 @@
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: 100px;
+	height: 300px;
+	background-color: #d9e0ec;
+	align-items: center;
 }
 
 .amaze__left {

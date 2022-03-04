@@ -59,3 +59,15 @@
 .display__right {
 	flex: 0.33;
 }
+
+.display__right__text > h1 {
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.display__right__text > p {
+	font-size: 0.8rem;
+	color: #3d00b7;
+	font-weight: 700;
+}

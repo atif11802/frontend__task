@@ -1,0 +1,35 @@
+.extraMiniCard {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.extraMiniCard > .extraMiniCard__left > p {
+	font-size: 1.4rem;
+}
+
+.extraMinicard__image {
+	margin-left: 10px;
+}
+.extraMinicard__mid {
+	margin-left: 20px;
+}
+
+.extraMinicard__mid > h1 {
+	font-size: 0.8rem;
+}
+
+.extraMinicard__mid > p {
+	font-size: 0.8rem;
+	color: #777;
+}
+
+.extraMinicard__percentage {
+	margin-left: 20px;
+}
+
+.extraMinicard__percentage > p {
+	font-size: 1.2rem;
+	color: #00f260;
+	font-weight: bolder;
+}

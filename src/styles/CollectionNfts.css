@@ -1,0 +1,20 @@
+.CollectionNfts {
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 100px;
+	height: 500px;
+	background-color: #d9e0ec;
+	flex-direction: column;
+}
+
+.CollectionNfts > h1 {
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.CollectionNfts-container {
+	display: flex;
+}
